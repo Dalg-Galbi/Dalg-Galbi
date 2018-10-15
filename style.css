@@ -1,0 +1,53 @@
+a:link, a:visited,a:active {
+	text-decoration: none;
+	color: black;
+}
+nav {
+	width: 1000px; 
+	margin: auto ; 
+	height: 44px;
+}
+
+nav #logo {
+	width: 200px; 
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	float: left;
+}
+
+nav #logo a {
+	display: block; 
+	height: 44px; 
+}
+
+nav #logo a:hover {
+	background: black;
+	color: white;
+}
+
+nav #mainNav {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+nav #mainNav li {
+	float: left;
+	width: 130px; 
+	list-style: none;
+	height: 44px;
+}
+
+nav #mainNav a {
+	display: block;
+	line-height: 44px;
+	text-align: center;
+}
+
+nav #mainNav a:hover {
+	background: yellow;
+	color: black;
+}
+
+nav
